@@ -5,6 +5,8 @@
  */
 package mvc;
 
+import modelo.persona;
+
 /**
  *
  * @author DANIELA
@@ -16,6 +18,10 @@ public class MVC {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        persona daniela = new persona("daniela", "perez", 0, 0, 0, "la 41", 'f', true);
+        persona elizabeth = new persona("daniela", "perez", 0, 0, 0, "la 41", 'f', true);
+        persona perez = new persona("daniela", "perez", 0, 0, 0, "la 41", 'f', true);
+        
     }
     
 }
