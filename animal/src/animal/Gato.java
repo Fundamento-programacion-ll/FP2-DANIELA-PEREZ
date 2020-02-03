@@ -9,6 +9,47 @@ package animal;
  *
  * @author DANIELA
  */
-public class Gato {
+public class Gato extends Animal{
+    private float estatura;
+    private String color;
+
+    Gato(int i, String mimi) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public float getEstatura() {
+        return estatura;
+    }
+
+    public void setEstatura(float estatura) {
+        this.estatura = estatura;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    
+   public void datosGato (){
+    
+        System.out.println("Nombre del gato: "+getNombre()+" edad del gato: " + getEdad() + " Estatura: " + getEstatura());
+        System.out.println(suma(1, 2));
+}
+    
+    public Gato(float estatura, String color, String especie, String genero, String nombre, int edad) {
+        super(especie, genero, nombre, edad);
+        this.estatura = estatura;
+        this.color = color;
+    }
+
+    public Gato(float estatura, String color) {
+        this.estatura = estatura;
+        this.color = color;
+    }
+    
     
 }

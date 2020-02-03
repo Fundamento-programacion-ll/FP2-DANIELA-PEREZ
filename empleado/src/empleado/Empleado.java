@@ -3,21 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package animal;
+package empleado;
 
 /**
- *
+ *              
  * @author DANIELA
  */
-public class Herencia {
+public class Empleado {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        // TODO code application logic here
         
-        Perro perrito = new Perro (10, "perro", "masculino", "Dogy",5);
-        perrito.datosPerro();
+        empleadosalario p= new empleadosalario(0, "daniela", "perez", "1750572016");
         
-        Gato gatito =  new Gato (7,"mimi");
-        gatito.datosGato();
+        System.out.println(p);
     }
     
 }
